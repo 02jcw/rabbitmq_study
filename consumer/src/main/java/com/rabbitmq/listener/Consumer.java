@@ -24,7 +24,7 @@ public class Consumer {
 
     @RabbitListener(queues = "simple.queue")
     public void listener2(String message) throws InterruptedException {
-        System.out.println("消费者2~~~~~~~~~~接受到消息："+message);
+        System.out.println("消费者2==========接受到消息："+message);
         Thread.sleep(200);
     }
 
