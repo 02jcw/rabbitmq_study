@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: 192.168.101.65
+    port: 5672
+    username: rebbitmq
+    password: 123456
+    virtual-host: /mq
+    listener:
+      simple:
+        prefetch: 1
