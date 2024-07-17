@@ -17,6 +17,7 @@ public class Publisher {
         String message = "hello rabbitmq!!";
         rabbitTemplate.convertAndSend(queueName, message);
         System.out.println("发送消息："+message);
+        System.out.println("333333333");
     }
 
     @Test
