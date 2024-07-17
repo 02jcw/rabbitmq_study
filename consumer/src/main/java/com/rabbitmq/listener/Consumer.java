@@ -20,6 +20,7 @@ public class Consumer {
     public void listener1(String message) throws InterruptedException {
         System.out.println("消费者1**********接受到消息："+message);
         System.out.println("22222222222");
+        System.out.println("33333333333");
         Thread.sleep(20);
     }
 
