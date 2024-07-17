@@ -21,6 +21,7 @@ public class Consumer {
         System.out.println("消费者1**********接受到消息："+message);
         System.out.println("22222222222");
         System.out.println("33333333333");
+        System.out.println("pull test");
         Thread.sleep(20);
     }
 
